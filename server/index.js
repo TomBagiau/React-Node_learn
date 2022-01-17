@@ -7,10 +7,10 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-  user: "root",
-  host: "localhost",
-  password: "rootroot",
-  database: "bddRecette",
+  user: "", //ajout info
+  host: "", //ajout info
+  password: "", //ajout info
+  database: "", //ajout info
 });
 
 //creation des requettes
